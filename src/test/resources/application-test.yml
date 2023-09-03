@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5436/testdb
+    username: user
+    password: password
+  liquibase:
+    change-log: classpath:liquibase/master.xml
